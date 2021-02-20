@@ -12,7 +12,7 @@ The authentication setup enables you to test access to the authenticated resourc
 You can enable NexPloit to get access to an authenticated resource by using any of the following authentication options:
 * [**Form authentication**](/guide/np-web-ui/advanced-set-up/authentication/types/form-authentication.md) - the default method of authentication, used for authentication requests with the content type set as ‘application/x-www-form-urlencoded.   
 * [**Header authentication**](/guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md) - the most straightforward method of authentication, used for static header authentication tokens that are generated outside of NexPloit and will not expire during a scan.  
-* [**API call**](guide/np-web-ui/advanced-set-up/authentication/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
+* [**API call**](guide/np-web-ui/scanning/managing-authentications/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
 
 ### Setup <!-- {docsify-ignore} -->
 To create an authentication object in NexPloit by using any of the available authentication options, you will need to get valid parameters and values required for a successful authentication setup, the specific parameters depend on the required authentication flow. You can find them in the browser DevTools of your application. To do that, follow these steps:
